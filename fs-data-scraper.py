@@ -5,8 +5,10 @@ from bs4 import BeautifulSoup
 import requests
 import re
 
+# In this project we will try with Vinatrans, a big logistics company in Viet Nam
+
 # Get the base url used for scraping by inputing the listing code
-listing_code = 'FPT'
+listing_code = 'VIN'
 
 
 def get_url(listing_code):
